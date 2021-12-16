@@ -43,10 +43,10 @@ a{
     color: black;
 }
 
-@media only screen and (max-width: 600){
-    main{
-        width: 70%;
-        height: 25%;
+@media screen and (max-width: 700){
+    .pictures{
+        flex-direction: column;
+        width: 80%;
     }
 }
 
