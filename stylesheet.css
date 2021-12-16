@@ -43,11 +43,7 @@ a{
     color: black;
 }
 
-@media screen and (max-height: 700){
-    .pictures{
-        flex-wrap: nowrap;
-        flex-direction: column;
-    }
+@media only screen and (max-width: 600){
     main{
         width: 70%;
         height: 10%;
