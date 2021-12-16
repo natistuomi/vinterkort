@@ -7,6 +7,8 @@ body{
     justify-content: center;
     align-items: center;
     font-family: 'Comic Neue', cursive;
+    background-image: url("tabletop.jpg");
+    background-color: black;
 }
 
 main{
@@ -14,7 +16,6 @@ main{
     height: 70%;
     background-color: whitesmoke;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
 }
 
 .pictures{
@@ -26,5 +27,18 @@ main{
 
 .pic{
     width: 50%;
+}
+
+.message{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
 }
 
